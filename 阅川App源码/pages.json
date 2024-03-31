@@ -1,0 +1,370 @@
+{
+	//路由界面的配置
+	"pages": [
+		{
+		"path" : "pages/starting/starting",
+		    "style" :                                                                                    
+		    {
+		        "navigationStyle": "custom"
+		    }
+		}
+		,{
+		"path" : "pages/index/index",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "首页",
+				"navigationBarBackgroundColor": "#681415",
+				"navigationBarTextStyle": "white"
+		    }
+		}
+		,{
+		    "path" : "pages/intangibleCulturalHeritage/intangibleCulturalHeritage",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "非遗",
+		        "navigationBarBackgroundColor": "#681415",
+				"navigationBarTextStyle": "white",
+				"enablePullDownRefresh": false
+		    }
+		    
+		}
+		,{
+		    "path" : "pages/goodsPage/goodsPage",
+		    "style" :                                                                                    
+		    {
+				"navigationBarTitleText": "文创",
+		        "navigationBarBackgroundColor": "#681415",
+		        "navigationBarTextStyle": "white",
+		        "enablePullDownRefresh": false
+		    }
+		    
+		}
+		,{
+		    "path" : "pages/mine/mine",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "我的",
+		        "navigationBarBackgroundColor": "#681415",
+		        "navigationBarTextStyle": "white",
+		        "enablePullDownRefresh": false
+		    }
+		    
+		}
+		,{
+		    "path" : "pages/order/order",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "我的订单",
+		        "navigationBarBackgroundColor": "#681415",
+		        "navigationBarTextStyle": "white",
+		        "enablePullDownRefresh": false
+		    }
+		    
+		}
+		,{
+		    "path" : "pages/mine/collect",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "我的收藏",
+		        "navigationBarBackgroundColor": "#681415",
+		        "navigationBarTextStyle": "white",
+		        "enablePullDownRefresh": false
+		    }
+		    
+		}
+		,{
+		    "path" : "pages/mine/setting",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "账号管理",
+		        "navigationBarBackgroundColor": "#681415",
+		        "navigationBarTextStyle": "white",
+		        "enablePullDownRefresh": false
+		    }
+		    
+		}
+		,{
+		    "path" : "pages/mine/login",
+		    "style" :                                                                                    
+		    {
+		        "navigationStyle": "custom",
+		        "enablePullDownRefresh": false
+		    }
+		    
+		}
+		,{
+		    "path" : "pages/mine/register",
+		    "style" :                                                                                    
+		    {
+		        "navigationStyle": "custom",
+		        "enablePullDownRefresh": false
+		    }
+		    
+		}
+		,{
+		    "path" : "pages/mine/forget",
+		    "style" :                                                                                    
+		    {
+		        "navigationStyle": "custom",
+		        "enablePullDownRefresh": false
+		    }
+		    
+		}
+        ,{
+            "path" : "pages/goodsDetail/goodsDetail",
+            "style" :                                                                                    
+            {
+				"navigationBarBackgroundColor": "#681415",
+                "navigationBarTitleText": "商品详情",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/payPage/payPage",
+            "style" :                                                                                    
+            {
+				"navigationBarBackgroundColor": "#681415",
+                "navigationBarTitleText": "订单支付",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/shoppingCart/shoppingCart",
+            "style" :                                                                                    
+            {
+				"navigationBarBackgroundColor": "#681415",
+                "navigationBarTitleText": "购物车",
+				"navigationBarTextStyle": "white",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/hotelDetail/hotelDetail",
+            "style" :                                                                                    
+            {
+				"navigationBarBackgroundColor": "#681415",
+                "navigationBarTitleText": "住宿详情",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/sceneryDetail/sceneryDetail",
+            "style" :                                                                                    
+            {
+				"navigationBarBackgroundColor": "#681415",
+                "navigationBarTitleText": "风景详情",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/heritageDetail/heritageDetail",
+            "style" :                                                                                    
+            {
+				"navigationBarBackgroundColor": "#681415",
+                "navigationBarTitleText": "非遗详情",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/goodsSearch/goodsSearch",
+            "style" :                                                                                    
+            {
+				"navigationBarTitleText": "文创商品",
+				"navigationBarBackgroundColor": "#681415",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/heritageSearch/heritageSearch",
+            "style" :                                                                                    
+            {
+				"navigationBarBackgroundColor": "#681415",
+                "navigationBarTitleText": "非遗搜索",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/hotelSearch/hotelSearch",
+            "style" :                                                                                    
+            {
+				"navigationBarBackgroundColor": "#681415",
+                "navigationBarTitleText": "住宿搜索",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/scenerySearch/scenerySearch",
+            "style" :                                                                                    
+            {
+				"navigationBarBackgroundColor": "#681415",
+                "navigationBarTitleText": "景点搜索",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/museumSearch/museumSearch",
+            "style" :                                                                                    
+            {
+				"navigationBarBackgroundColor": "#681415",
+                "navigationBarTitleText": "馆藏搜索",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/museumDetail/museumDetail",
+            "style" :                                                                                    
+            {
+				"navigationBarBackgroundColor": "#681415",
+                "navigationBarTitleText": "馆藏详情",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/theaterDetail/theaterDetail",
+            "style" :                                                                                    
+            {
+				"navigationBarBackgroundColor": "#681415",
+                "navigationBarTitleText": "剧院搜索",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/theaterSearch/theaterSearch",
+            "style" :                                                                                    
+            {
+				"navigationBarBackgroundColor": "#681415",
+                "navigationBarTitleText": "剧院详情",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/addressPage/addressPage",
+            "style" :                                                                                    
+            {
+				"navigationBarBackgroundColor": "#681415",
+                "navigationBarTitleText": "地址管理",
+                "enablePullDownRefresh": false
+            }
+            
+        },
+		{
+		    "path" : "pages/order/order",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "订单中心",
+				"navigationBarBackgroundColor": "#681415",
+		        "navigationBarTextStyle": "white",
+		        "enablePullDownRefresh": true
+		    }
+		    
+		},
+		{
+		    "path" : "pages/help/help",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "帮助与反馈",
+		        "navigationBarBackgroundColor": "#681415",
+		        "navigationBarTextStyle": "white",
+		        "enablePullDownRefresh": true
+		    }
+		    
+		}
+		,{
+		    "path" : "pages/help/helpforget",
+		    "style" :                                                                                    
+		    {
+		       "navigationBarTitleText": "如何修改密码",
+		       "navigationBarBackgroundColor": "#D3ccD6",
+		       "navigationBarTextStyle": "white",
+		       "enablePullDownRefresh": true
+		    }
+		    
+		}
+		,{
+		    "path" : "pages/help/help",
+		    "style" :                                                                                    
+		    {
+		        "enablePullDownRefresh": false,
+		        "navigationBarTitleText": "帮助",
+				"navigationBarBackgroundColor": "#681415",
+				"navigationBarTextStyle": "white"
+		    }
+		    
+		}
+		
+        ,{
+            "path" : "pages/addressChange/addressChange",
+            "style" :                                                                                    
+            {
+		        "enablePullDownRefresh": false,
+		        "navigationBarTitleText": "修改收货地址",
+				"navigationBarBackgroundColor": "#681415",
+				"navigationBarTextStyle": "white"
+            }
+            
+        }
+        ,{
+            "path" : "pages/starting/starting",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+
+//全局样式的配置
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8",
+		"app-plus": {
+			"background": "#f2ebd9",
+			"scrollIndicator": "none"
+		}
+	},
+	//底部菜单的配置
+	"tabBar": {
+		"color": "#fff",//字体颜色
+		"selectedColor": "#8b572a",//选中后字体颜色
+		"borderStyle": "#fff",//边框颜色
+		"backgroundColor": "#681415",//整个界面的背景颜色
+		"list": [{
+			"pagePath": "pages/index/index",
+			"iconPath": "static/tabbar_icon/飞行气流_flight-airflow.png",
+			"selectedIconPath": "static/tabbar_icon/飞行气流_flight-airflow (1).png",
+			"text": "首页"
+		}, {
+			"pagePath": "pages/intangibleCulturalHeritage/intangibleCulturalHeritage",
+			"iconPath": "static/tabbar_icon/城门_city-gate.png",
+			"selectedIconPath": "static/tabbar_icon/城门_city-gate (1).png",
+			"text": "非遗"
+		},{
+			"pagePath": "pages/goodsPage/goodsPage",
+			"iconPath": "static/tabbar_icon/扇子_fan.png",
+			"selectedIconPath": "static/tabbar_icon/扇子_fan (1).png",
+			"text": "文创"
+		},{
+			"pagePath": "pages/mine/mine",
+			"iconPath": "static/tabbar_icon/体操1_gymnastics-one .png",
+			"selectedIconPath": "static/tabbar_icon/体操1_gymnastics-one(2).png",
+			"text": "我的"
+		}]
+	}
+}

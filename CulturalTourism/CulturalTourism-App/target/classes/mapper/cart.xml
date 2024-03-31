@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD mapper 3.0//EN"
+        "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.app.mapper.market.CartMapper">
+
+    <select id="buyGoods" resultType="entity.CartDTO">
+        select
+        goods.goods_id,goods_store,goods_category,goods_name,goods_img,goods_location,goods_price,goods_number,is_check,goods_price*goods_number as goods_total
+        from goods,cart,user
+        where goods.goods_id=cart.goods_id
+        and cart.user_id=user.user_id
+        and cart.user_id=#{userID}
+        and cart.is_check=1;
+    </select>
+
+    <select id="selectCart" resultType="entity.CartDTO">
+        select
+        goods.goods_id,goods_store,goods_category,goods_name,goods_img,goods_location,goods_price,goods_number,is_check,goods_price*goods_number as goods_total
+        from goods,cart,user
+        where goods.goods_id=cart.goods_id
+        and cart.user_id=user.user_id
+        and cart.user_id=#{userID};
+    </select>
+
+    <delete id="deleteCart">
+        delete from cart where user_id=#{userID} and goods_id=#{goodsID};
+    </delete>
+
+
+    <select id="addCart" statementType="CALLABLE">
+        {
+        call addCart(
+        #{userID,mode=IN,jdbcType=INTEGER},
+        #{goodsID,mode=IN,jdbcType=INTEGER},
+        #{goodsNumber,mode=IN,jdbcType=INTEGER},
+        #{result,mode=OUT,jdbcType=INTEGER}
+        )
+        }
+    </select>
+
+    <select id="checkSum" statementType="CALLABLE">
+        {
+        call checkSum(
+        #{userID,mode=IN,jdbcType=INTEGER},
+        #{goodsID,mode=IN,jdbcType=INTEGER},
+        #{isCheck,mode=IN,jdbcType=INTEGER},
+        #{result,mode=OUT,jdbcType=INTEGER},
+        #{total,mode=OUT,jdbcType=INTEGER}
+        )
+        }
+    </select>
+
+
+
+</mapper>

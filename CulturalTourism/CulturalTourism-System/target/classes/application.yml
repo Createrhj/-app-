@@ -1,0 +1,28 @@
+server:
+  port: 8001
+  servlet:
+    context-path: /system
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: 123456
+    url: jdbc:mysql://localhost:3306/cultural_tourism?characterEncoding=utf8
+  application:
+    name: CulturalTourism-System
+  mvc:
+    pathmatch:
+      matching-strategy: ant_path_matcher
+    dispatch-options-request: true
+  servlet:
+    multipart:
+      max-file-size: 20MB
+      max-request-size: 20MB
+logging:
+  level:
+    com.system.mapper: DEBUG
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:7001/eureka/

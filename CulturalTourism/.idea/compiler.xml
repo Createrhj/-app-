@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="CulturalTourism-App" />
+        <module name="Gateway" />
+        <module name="CulturalTourism-System" />
+        <module name="Eureka" />
+        <module name="CulturalTourism-base" />
+        <module name="CulturalTourism-Api" />
+        <module name="CulturalTourism-api" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="CulturalTourism-Eureka" target="1.8" />
+      <module name="CulturalTourism-Login" target="1.8" />
+      <module name="CulturalTourism-Market" target="1.8" />
+      <module name="CulturalTourism-MyLogin" target="1.8" />
+      <module name="CulturalTourism-Personal" target="1.8" />
+      <module name="CulturalTourism-Search" target="1.8" />
+      <module name="demo" target="1.8" />
+      <module name="Eureka-7001" target="1.8" />
+      <module name="Zuul" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="CulturalTourism-Api" options="" />
+      <module name="CulturalTourism-Login" options="" />
+      <module name="CulturalTourism-MyLogin" options="" />
+      <module name="CulturalTourism-base" options="" />
+      <module name="Eureka" options="" />
+      <module name="demo" options="-parameters" />
+    </option>
+  </component>
+</project>

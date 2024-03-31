@@ -1,0 +1,23 @@
+{
+  "code": 200,
+  "total": 0,
+  "msg": "成功",
+  "data": [
+    {
+      "goodsName": "七星堆",
+      "goodsPrice": 10.0,
+      "goodsCategory": "瓷器",
+      "goodsNumber": 30,
+      "isCheck": 1,
+      "goodsTotal": "300.0"
+    },
+    {
+      "goodsName": "不知道",
+      "goodsPrice": 100.0,
+      "goodsCategory": "酒店",
+      "goodsNumber": 200,
+      "isCheck": 0,
+      "goodsTotal": "20000.0"
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "timestamp": "2023-10-13T11:39:17.903+00:00",
+  "status": 400,
+  "error": "Bad Request",
+  "path": "/userSys/selectPage"
+}

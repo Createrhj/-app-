@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="40727a3f-84ee-4212-bfe3-ec4591e085ef" name="变更" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="FxmlFile" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\apache-maven-3.8.6-bin\maven-repository" />
+        <option name="mavenHome" value="$PROJECT_DIR$/../../../apache-maven-3.8.6-bin/apache-maven-3.8.6" />
+        <option name="useMavenConfig" value="true" />
+        <option name="userSettingsFile" value="D:\apache-maven-3.8.6-bin\apache-maven-3.8.6\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2VZJyAOR9WrDwvvO0exA8F4fmqa" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/SQL 方言" value="MySQL" />
+    <property name="database.data.extractors.current.export.id" value="Excel (xlsx)" />
+    <property name="extract.method.default.visibility" value="private" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="模块" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.repository.indices" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Study\JavaWork\CulturalTourism\CulturalTourism-System\src\main\java\com\system\service\impl" />
+      <recent name="D:\Study\JavaWork\CulturalTourism\CulturalTourism-System\src\main\java\com\system\service" />
+      <recent name="D:\Study\JavaWork\CulturalTourism\CulturalTourism-System\src\main\java\com\system\mapper" />
+      <recent name="D:\Study\JavaWork\CulturalTourism\CulturalTourism-App\src\main\java\com\app" />
+      <recent name="D:\Study\JavaWork\CulturalTourism\CulturalTourism-System\src\main\resources\static" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Study\JavaWork\CulturalTourism\CulturalTourism-System\src\main\resources\static" />
+      <recent name="D:\Study\JavaWork\CulturalTourism\CulturalTourism-System\src\main\resources\static\HeritageImg" />
+      <recent name="D:\Study\JavaWork\CulturalTourism\CulturalTourism-System\src\main\resources\static\UserAvatar" />
+      <recent name="D:\Study\JavaWork\CulturalTourism\CulturalTourism-System\src\main\resources\static\userAvatar" />
+      <recent name="D:\Study\JavaWork\CulturalTourism\CulturalTourism-App\src\main\resources\mapper" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.app.config" />
+      <recent name="com" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.GatewayApplication">
+    <configuration name="generated-requests | #41" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="41" requestIdentifier="#41" runType="运行单个请求">
+      <method v="2" />
+    </configuration>
+    <configuration name="AppApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="CulturalTourism-App" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.app.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.app.AppApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurekaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="Eureka" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Eurake.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="Eurake.EurekaApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="Gateway" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gateway.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.gateway.GatewayApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SystemApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="CulturalTourism-System" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.system.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.system.SystemApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="HTTP 请求.generated-requests | #41" />
+      <item itemvalue="Spring Boot.EurekaApplication" />
+      <item itemvalue="Spring Boot.AppApplication" />
+      <item itemvalue="Spring Boot.GatewayApplication" />
+      <item itemvalue="Spring Boot.SystemApplication" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.GatewayApplication" />
+        <item itemvalue="Spring Boot.AppApplication" />
+        <item itemvalue="Spring Boot.EurekaApplication" />
+        <item itemvalue="Spring Boot.SystemApplication" />
+        <item itemvalue="HTTP 请求.generated-requests | #41" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="40727a3f-84ee-4212-bfe3-ec4591e085ef" name="变更" comment="" />
+      <created>1695037920992</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1695037920992</updated>
+      <workItem from="1695037922192" duration="1647000" />
+      <workItem from="1695039624824" duration="1162000" />
+      <workItem from="1695045209521" duration="1708000" />
+      <workItem from="1695086076654" duration="3687000" />
+      <workItem from="1695090462180" duration="2141000" />
+      <workItem from="1695092721557" duration="1490000" />
+      <workItem from="1695098434078" duration="3087000" />
+      <workItem from="1695107288574" duration="2508000" />
+      <workItem from="1695111752288" duration="264000" />
+      <workItem from="1695112424840" duration="350000" />
+      <workItem from="1695112933350" duration="1652000" />
+      <workItem from="1695114605082" duration="1968000" />
+      <workItem from="1695195404683" duration="711000" />
+      <workItem from="1695196131307" duration="5072000" />
+      <workItem from="1695206940624" duration="852000" />
+      <workItem from="1695211148380" duration="2539000" />
+      <workItem from="1695262581332" duration="595000" />
+      <workItem from="1695266014183" duration="2083000" />
+      <workItem from="1695308406035" duration="3049000" />
+      <workItem from="1695348352961" duration="3882000" />
+      <workItem from="1695569192300" duration="1621000" />
+      <workItem from="1695630900906" duration="3209000" />
+      <workItem from="1695654784180" duration="1444000" />
+      <workItem from="1695715367276" duration="11360000" />
+      <workItem from="1695773930225" duration="3406000" />
+      <workItem from="1695790402389" duration="9172000" />
+      <workItem from="1695815472672" duration="1126000" />
+      <workItem from="1695869536583" duration="4249000" />
+      <workItem from="1695873856942" duration="345000" />
+      <workItem from="1696674659329" duration="2875000" />
+      <workItem from="1696837849997" duration="235000" />
+      <workItem from="1696842423110" duration="1201000" />
+      <workItem from="1696913412389" duration="2867000" />
+      <workItem from="1696918134424" duration="13769000" />
+      <workItem from="1696948824992" duration="1715000" />
+      <workItem from="1696983815598" duration="4103000" />
+      <workItem from="1697001475384" duration="1509000" />
+      <workItem from="1697008995937" duration="11486000" />
+      <workItem from="1697077340784" duration="5536000" />
+      <workItem from="1697089155552" duration="152000" />
+      <workItem from="1697097348942" duration="11420000" />
+      <workItem from="1697116965652" duration="1242000" />
+      <workItem from="1697125160532" duration="2618000" />
+      <workItem from="1697157776220" duration="8691000" />
+      <workItem from="1697188407987" duration="3085000" />
+      <workItem from="1697196301173" duration="2104000" />
+      <workItem from="1697247601234" duration="4945000" />
+      <workItem from="1697252877010" duration="7501000" />
+      <workItem from="1697419860938" duration="196000" />
+      <workItem from="1697429492571" duration="597000" />
+      <workItem from="1697505878016" duration="71000" />
+      <workItem from="1697588692138" duration="47000" />
+      <workItem from="1697590794046" duration="675000" />
+      <workItem from="1697717644639" duration="1618000" />
+      <workItem from="1697761669321" duration="12858000" />
+      <workItem from="1697784051330" duration="848000" />
+      <workItem from="1697793049137" duration="6214000" />
+      <workItem from="1697816705902" duration="1272000" />
+      <workItem from="1697854233069" duration="5057000" />
+      <workItem from="1697869954676" duration="6230000" />
+      <workItem from="1697881990076" duration="136000" />
+      <workItem from="1697892532009" duration="5216000" />
+      <workItem from="1697946384106" duration="9855000" />
+      <workItem from="1697959673431" duration="18283000" />
+      <workItem from="1698020564789" duration="4520000" />
+      <workItem from="1698029037749" duration="8726000" />
+      <workItem from="1698056029278" duration="3955000" />
+      <workItem from="1698110488740" duration="320000" />
+      <workItem from="1698110912743" duration="20342000" />
+      <workItem from="1698160624271" duration="2756000" />
+      <workItem from="1698193178262" duration="5356000" />
+      <workItem from="1698214514608" duration="10375000" />
+      <workItem from="1698283158008" duration="13228000" />
+      <workItem from="1698322110902" duration="1684000" />
+      <workItem from="1698653474932" duration="202000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/CulturalTourism-App/src/main/java/com/app/controller/MarketController.java</url>
+          <line>195</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="SpringBootApplicationConfigurationType">
+        <watch expression="orders" />
+      </configuration>
+    </watches-manager>
+  </component>
+</project>

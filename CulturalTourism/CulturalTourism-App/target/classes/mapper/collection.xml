@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD mapper 3.0//EN"
+        "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.app.mapper.personal.CollectionMapper">
+
+    <select id="selectHeritage" resultType="entity.Heritage">
+        select
+        heritage.heritage_id,heritage_name,heritage_category,heritage_city,heritage_address,heritage_detail,heritage_img,application_time
+        from collection,heritage,user
+        where collection.user_id=user.user_id
+        and collection.heritage_id=heritage.heritage_id
+        and collection.user_id=#{userID};
+    </select>
+
+
+</mapper>

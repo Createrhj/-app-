@@ -1,0 +1,39 @@
+{
+  "code": 200,
+  "total": 0,
+  "msg": "成功",
+  "data": [
+    {
+      "ordersMoney": 0.0,
+      "ordersDate": "2023-09-28 12:09:32",
+      "ordersStatue": "未完成",
+      "goodsName": "七星堆",
+      "goodsCategory": "瓷器",
+      "goodsNumber": 100,
+      "goodsPrice": 10.0,
+      "goodsTotal": 1000.0,
+      "name": "吕梓桐",
+      "phone": "13660900683",
+      "province": "四川",
+      "city": "成都",
+      "detailAddress": "信息工程大学",
+      "orderID": 0
+    },
+    {
+      "ordersMoney": 0.0,
+      "ordersDate": "2023-09-28 12:09:32",
+      "ordersStatue": "未完成",
+      "goodsName": "不知道",
+      "goodsCategory": "酒店",
+      "goodsNumber": 10,
+      "goodsPrice": 100.0,
+      "goodsTotal": 100.0,
+      "name": "吕梓桐",
+      "phone": "13660900683",
+      "province": "四川",
+      "city": "成都",
+      "detailAddress": "信息工程大学",
+      "orderID": 0
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+server:
+  port: 9527
+logging:
+  level:
+    org.springframework.cloud.gateway: DEBUG
+    reactor.netty.http.client: DEBUG
+spring:
+  application:
+    name: CulturalTourism-Gateway
+  cloud:
+    gateway:
+      routes:
+        - id: app_route # 路由的id,没有规定规则但要求唯一,建议配合服务名
+          uri: http://localhost:8002
+          predicates:
+            - Path=/app/** # 断言，路径相匹配的进行路由
+        - id: system_route # 路由的id,没有规定规则但要求唯一,建议配合服务名
+          uri: http://localhost:8001
+          predicates:
+            - Path=/system/** # 断言，路径相匹配的进行路由
+
+eureka:
+  instance:
+    hostname: springcloud-gateway-service
+  client: #服务提供者provider注册进eureka服务列表内
+    service-url:
+      register-with-eureka: true
+      fetch-registry: true
+      defaultZone: http://localhost:7001/eureka/

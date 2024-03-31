@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD mapper 3.0//EN"
+        "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.app.mapper.market.OrdersMapper">
+
+
+    <select id="selectOrders" resultType="entity.OrdersDTO" parameterType="java.lang.String">
+        select
+        orders.orders_id,orders_money,orders_date,orders_statue,
+        goods_category,goods_store,goods_name,goods_img,goods_location,goods_number,goods_price,goods_total,
+        name,phone,province,city,detail_address
+        from orders,orders_items,goods,user_address
+        where orders.orders_id=orders_items.orders_id and goods.goods_id=orders_items.goods_id
+        and orders.address_id=user_address.address_id and orders.orders_id=#{ordersID}
+    </select>
+
+    <select id="deleteOrders" statementType="CALLABLE">
+        {
+        call deleteOrders(
+        #{userID,mode=IN,jdbcType=INTEGER},
+        #{ordersID,mode=IN,jdbcType=BIGINT},
+        #{result,mode=OUT,jdbcType=INTEGER}
+        )
+        }
+    </select>
+
+    <select id="addOrders" statementType="CALLABLE">
+        {
+        call addOrders(
+        #{userID,mode=IN,jdbcType=INTEGER},
+        #{ordersID,mode=IN,jdbcType=BIGINT},
+        #{result,mode=OUT,jdbcType=INTEGER}
+        )
+        }
+    </select>
+
+
+</mapper>

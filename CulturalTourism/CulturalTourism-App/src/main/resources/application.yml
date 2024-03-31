@@ -1,0 +1,22 @@
+server:
+  port: 8002
+  servlet:
+    context-path: /app
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: 123456
+    url: jdbc:mysql://localhost:3306/cultural_tourism?characterEncoding=utf8
+  application:
+    name: CulturalTourism-App
+  mvc:
+    pathmatch:
+      matching-strategy: ant_path_matcher
+logging:
+  level:
+    com.app.mapper: DEBUG
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:7001/eureka/

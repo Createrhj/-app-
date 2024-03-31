@@ -1,0 +1,19 @@
+{
+  "code": 200,
+  "total": 0,
+  "msg": "成功",
+  "data": {
+    "CurUser": {
+      "userID": 1,
+      "userAccount": "1017299634",
+      "userPassword": "123456",
+      "userPhone": "13660900683",
+      "userAvatar": "6.png",
+      "userName": "lzt",
+      "userSex": "男",
+      "userAge": 20,
+      "userDetail": "没有",
+      "userRole": "管理员"
+    }
+  }
+}

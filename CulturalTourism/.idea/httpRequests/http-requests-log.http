@@ -1,0 +1,300 @@
+POST http://localhost:8002/heritage/testHeritage
+
+<> 2023-10-20T131148.404.html
+
+###
+
+POST http://localhost:8002/heritage/allHeritage
+
+<> 2023-10-20T130444.404.html
+
+###
+
+GET http://localhost:9527/app/mark/selectCart?userID=1
+
+<> 2023-10-14T120009.200.json
+
+###
+
+GET http://localhost:9527/system/ordersSys/selectOrders?ordersID=1156925658405015552
+
+<> 2023-10-14T111759.200.json
+
+###
+
+GET http://localhost:9527/system/ordersSys/selectOrders?ordersID=1156925658405015552
+
+<> 2023-10-14T105351.200.json
+
+###
+
+GET http://localhost:9527/app/mark/selectCart?userID=1
+
+<> 2023-10-14T100535.200.json
+
+###
+
+GET http://localhost:8002/app/mark/selectCart?userID=1
+
+<> 2023-10-14T100528.200.json
+
+###
+
+GET http://localhost:8002/add/mark/selectCart?userID=1
+
+<> 2023-10-14T100518.404.html
+
+###
+
+GET http://localhost:9527/system/ordersSys/selectOrders?ordersID=1156925658405015552
+
+<> 2023-10-14T100348.200.json
+
+###
+
+GET http://localhost:8001/system/ordersSys/selectOrders?ordersID=1156925658405015552
+
+<> 2023-10-14T100319.200.json
+
+###
+
+GET http://localhost:8001/system/ordersSys/selectOrders?ordersID=1156925658405015552
+
+<> 2023-10-14T100240.200.json
+
+###
+
+GET http://localhost:8001/ordersSys/selectOrders?ordersID=1156925658405015552
+
+<> 2023-10-14T100225.404.html
+
+###
+
+GET http://localhost:9527/selectOrders?ordersID=1156925658405015552
+
+<> 2023-10-14T094301.404.json
+
+###
+
+GET http://localhost:9527/selectOrders?ordersID=1156925658405015552
+
+<> 2023-10-14T094218.404.json
+
+###
+
+GET http://localhost:8001/ordersSys/selectOrders?ordersID=1156925658405015552
+
+<> 2023-10-14T094211.200.json
+
+###
+
+GET http://localhost:8001/system/ordersSys/selectOrders?ordersID=1156925658405015552
+
+<> 2023-10-14T094205.404.json
+
+###
+
+GET http://localhost:8001/system/ordersSys/selectOrders?ordersID=1156925658405015552
+
+<> 2023-10-14T094203.404.json
+
+###
+
+GET http://localhost:9527/ordersSys/selectOrders?ordersID=1156925658405015552
+
+<> 2023-10-14T094142.404.json
+
+###
+
+GET http://localhost:9527/ordersSys/selectOrders?ordersID=1156925658405015552
+
+<> 2023-10-13T195957.200.json
+
+###
+
+GET http://localhost:8001/ordersSys/selectOrders?ordersID=1156925658405015552
+
+<> 2023-10-13T195706.200.json
+
+###
+
+GET http://localhost:8001/system/ordersSys/selectOrders?ordersID=1156925658405015552
+
+<> 2023-10-13T195659.404.json
+
+###
+
+GET http://localhost:8001/system/ordersSys/selectOrders?ordersID=1156925658405015552
+
+<> 2023-10-13T195653.404.json
+
+###
+
+GET http://localhost:9527/system/ordersSys/selectOrders?ordersID=1156925658405015552
+
+<> 2023-10-13T195651.404.json
+
+###
+
+GET http://localhost:8001/system/ordersSys/selectOrders?ordersID=1156925658405015552
+
+<> 2023-10-13T195543.404.json
+
+###
+
+GET http://localhost:9527/system/ordersSys/selectOrders?ordersID=1156925658405015552
+
+<> 2023-10-13T194405.404.json
+
+###
+
+GET http://localhost:8001/ordersSys/selectOrders?ordersID=1156925658405015552
+
+<> 2023-10-13T194308.200.json
+
+###
+
+GET http://localhost:9527/system/ordersSys/selectOrders?ordersID=1156925658405015552
+
+<> 2023-10-13T194138.404.json
+
+###
+
+GET http://localhost:8001/ordersSys/selectOrders?ordersID=1156925658405015552
+
+<> 2023-10-13T194024.200.json
+
+###
+
+GET http://localhost:8001/ordersSys/selectOrders?ordersID=1156925658405015552
+
+<> 2023-10-13T193951.200.json
+
+###
+
+POST http://localhost:8001/userSys/selectPage
+
+<> 2023-10-13T193917.400.json
+
+###
+
+GET http://localhost:8002/Log/login?userAccount=1017299634&userPassword=123456
+
+<> 2023-10-13T101059.200.json
+
+###
+
+GET http://localhost:8002/Log/login?userAccount=1017299634$userPassword=123456
+
+<> 2023-10-13T101039.400.json
+
+###
+
+GET http://localhost:8001/ordersSys/selectOrders?ordersID=1156925658405015552
+
+<> 2023-10-12T213107.200.json
+
+###
+
+GET http://localhost:8001/ordersSys/selectOrders?ordersID=1156925658405015552
+
+<> 2023-10-12T213020.500.json
+
+###
+
+GET http://localhost:8001/ordersSys/selectOrders?ordersID=1156925658405015552
+
+<> 2023-10-12T213011.500.json
+
+###
+
+GET http://localhost:8001/ordersSys/selectOrders?ordersID=1156925658405015552
+
+<> 2023-10-12T212938.200.json
+
+###
+
+GET http://localhost:8001/ordersSys/selectOrders?ordersID=1156925658405015600
+
+<> 2023-10-12T212745.200.json
+
+###
+
+GET http://localhost:8001/ordersSys/selectOrders?ordersID=1156925658405015600
+
+<> 2023-10-12T211646.200.json
+
+###
+
+GET http://localhost:8001/ordersSys/selectOrders?ordersID=1156925658405015600
+
+<> 2023-10-12T211544.200.json
+
+###
+
+GET http://localhost:8001/ordersSys/selectOrders?ordersID=1156925658405015600
+
+<> 2023-10-12T211534.200.json
+
+###
+
+GET http://localhost:8001/ordersSys/selectOrders?ordersID=1156925658405015600
+
+<> 2023-10-12T211403.200.json
+
+###
+
+GET http://localhost:8001/ordersSys/selectOrders?ordersID=1156925658405015600
+
+<> 2023-10-12T211302.200.json
+
+###
+
+GET http://localhost:8001/ordersSys/selectOrders?ordersID=1156925658405015600
+
+<> 2023-10-12T211212.200.json
+
+###
+
+GET http://localhost:8001/ordersSys/selectOrders?ordersID=1156925658405015600
+
+<> 2023-10-12T211047.200.json
+
+###
+
+GET http://localhost:8001/ordersSys/selectOrders?ordersID=1156925658405015600
+
+<> 2023-10-12T210520.200.json
+
+###
+
+GET http://localhost:8001/ordersSys/selectOrders?ordersID=1156925658405015600
+
+<> 2023-10-12T210413.200.json
+
+###
+
+GET http://localhost:8001/ordersSys/selectOrders?ordersID=1156925658405015600
+
+<> 2023-10-12T210248.200.json
+
+###
+
+GET http://localhost:8001/ordersSys/selectOrders?ordersID=1156925658405015600
+
+<> 2023-10-12T210028.200.json
+
+###
+
+GET http://localhost:8001/ordersSys/selectOrders?ordersID=1156925658405015552
+
+<> 2023-10-12T200213.200.json
+
+###
+
+GET http://localhost:8001/ordersSys/selectOrders?ordersID=1156925658405015552
+
+<> 2023-10-12T194828.200.json
+
+###
+
